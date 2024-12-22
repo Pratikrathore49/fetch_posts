@@ -1,0 +1,25 @@
+
+body{
+    background-color:  #FBF8EF ;
+     /* color:#fff6ed; */
+     /* font-family: cursive; */
+    width: 100vw;
+    height: 100vh;
+
+}
+#content{
+    font-size: 1.1rem;
+}
+
+#box{
+    background-color:#949596 ;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* height: 350px; */
+    min-height: 350px;
+    width:750px;
+}
+#btn{
+  background-color: #78B3CE;
+}

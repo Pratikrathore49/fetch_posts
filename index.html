@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post-myFetchApi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="./style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+</head>
+
+<body>
+
+           
+  <main  class="flex justify-center items-center w-screen font-serif h-[100%] flex-col gap-5 ">
+          <div class="text-[#1a7f77] text-3xl text-cursive "> <p><b> Posts</b> </p></div>
+
+    <div id="box">
+      
+      <!-- ---------------------- Start adjsut title and id--------------------------
+
+      <div id="postCounOrTitle" class="flex justify-center text-white  items-center flex-col mt-[20px] text-xl">
+        <h1 >1</h1>
+        <p id="titel "class="mt-[10px]  "><strong><q>My First Fetch Api Project</q></strong></p>
+      </div> -->
+
+         <!-- ---------------------- Start Post Content-------------------------- -->
+
+      <!-- <div id="content" class="flex justify-center w-600 text-left text-white  mt-[35px]">
+        <p id="postBody"> "Something related to our post Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab
+          odit culpa sapiente iusto nemo minus ex explicabo vitae! Quibusdam totam ex, unde dolorem porro earum sequi
+          quam similique accusantium facilis?"</p>
+      </div>
+      <hr class="mt-[40px]"> -->
+
+
+
+      <!-- ----------------------  start adjust views ,like and tags-------------------------- -->
+
+      <!-- <div id="tag_or_like" class="flex gap-12 text-left mt-[15px]  text-[#fff6ed] min-h-5">
+
+        <div class="flex  ml-[50px] gap-2 ">
+          <p id="views"> 2344 Views |</p>
+          <p id="reactions">
+          <p id="reactions"> <i class="fa-solid fa-thumbs-up right"></i> 345 | 50 <i
+              class="fa-solid fa-thumbs-down fa-flip-horizontal"></i></p>
+        </div>
+
+        <p id=" tags" class="ml-[50px]  text-[#f4ea28] "> #media #virat kohli #pratik </p>
+
+      </div> -->
+      <!-- ---------------------- End  adjust views ,like and tags-------------------------- -->
+
+
+    </div>
+    <button id="btn" class="rounded-lg border-solid border-white border-4 bg-black  px-4 py-1">Other Post</button>
+  </main>
+
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
